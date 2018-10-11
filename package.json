@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clear": "rimraf build",
-    "build": "npm run clear & webpack",
+    "build": "npm run clear & webpack && cp js/* build/",
     "prestart": "node_modules/.bin/webpack",
     "start": "node_modules/.bin/webpack-dev-server"
   },
