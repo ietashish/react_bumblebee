@@ -3,6 +3,10 @@
  * at.js 2.0.0-3 | (c) Adobe Systems Incorporated | All rights reserved
  * zepto.js | (c) 2010-2016 Thomas Fuchs | zeptojs.com/license
 */
+window.targetGlobalSettings = {
+  "cookieDomain":"ashishg.netlify.com"
+}
+
 window.adobe = window.adobe || {};
 window.adobe.target = (function () {
 'use strict';
