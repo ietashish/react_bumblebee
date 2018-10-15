@@ -3,6 +3,10 @@
  * at.js 2.0.0-3 | (c) Adobe Systems Incorporated | All rights reserved
  * zepto.js | (c) 2010-2016 Thomas Fuchs | zeptojs.com/license
 */
+
+window.targetGlobalSettings = {
+  "cookieDomain":"ashishg.netlify.com"
+}
 window.adobe = window.adobe || {};
 window.adobe.target = (function () {
 'use strict';
@@ -7409,4 +7413,4 @@ var bootstrap = {
 return bootstrap;
 
 }());
-window.adobe.target.init(window, document, {"clientCode":"mwtestus","imsOrgId":"03DD36275AAFA0FF0A495D29@AdobeOrg","serverDomain":"mwtestus.tt.omtrdc.net","crossDomain":"disabled","timeout":5000,"globalMboxName":"target-global-mbox","globalMboxAutoCreate":true,"version":"2.0.0-2","defaultContentHiddenStyle":"visibility:hidden;","defaultContentVisibleStyle":"visibility:visible;","bodyHiddenStyle":"body{opacity:0!important}","bodyHidingEnabled":true,"deviceIdLifetime":63244800000,"sessionIdLifetime":1860000,"selectorsPollingTimeout":5000,"visitorApiTimeout":2000,"overrideMboxEdgeServer":true,"overrideMboxEdgeServerTimeout":1860000,"optoutEnabled":false,"secureOnly":false,"supplementalDataIdParamTimeout":30,"authoringScriptUrl":"//cdn.tt.omtrdc.net/cdn/target-vec.js","urlSizeLimit":2048,"endpoint":"/rest/v1alpha2/delivery","delivery":true});
+window.adobe.target.init(window, document, {"clientCode":"emeaprod4","imsOrgId":"0DD934B85278256B0A490D44@AdobeOrg","serverDomain":"emeaprod4.tt.omtrdc.net","crossDomain":"disabled","timeout":30000,"globalMboxName":"target-global-mbox","globalMboxAutoCreate":true,"version":"2.0.0-1","defaultContentHiddenStyle":"visibility:hidden;","defaultContentVisibleStyle":"visibility:visible;","bodyHiddenStyle":"body{opacity:0!important}","bodyHidingEnabled":true,"deviceIdLifetime":63244800000,"sessionIdLifetime":1860000,"selectorsPollingTimeout":5000,"visitorApiTimeout":2000,"overrideMboxEdgeServer":true,"overrideMboxEdgeServerTimeout":1860000,"optoutEnabled":false,"secureOnly":false,"supplementalDataIdParamTimeout":30,"authoringScriptUrl":"//cdn.tt.omtrdc.net/cdn/target-vec.js","urlSizeLimit":2048,"endpoint":"/rest/v1alpha2/delivery","delivery":true});
